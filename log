@@ -1,0 +1,141 @@
+1/18/18
+-DOING-
+Currently pulling twitter data. Twitter has a data limit of around 200 tweets every 15 minutes so I have my code running on a timer that will sleep for 15 minutes if it errors.
+-PROBLEMS-
+1.Getting enough tweets may be difficult/time consuming due to rate limits.
+2.I am not using 'since_id' param so duplicate tweets are being pulled.
+-SOLUTIONS-
+1.Set up a server to constantly pull.
+2.Encorporate 'since_id' param or have code setup to load csv into pandas df, remove duplicates, then re-write to disk
+-TO DO-
+1.Increase tweet pulling rate
+2.Start designing classifier
+
+1/19/18
+-DOING-
+Still pulling twitter data. However, looking into simply searching for "abortion" rather than abortion hash tags, I believe this will fix the pulling rate issue.
+-PROBLEMS-
+1.Twitter pulling rate
+
+1/20/18
+-DOING-
+Fixed the pulling rate, now have over 5,000 tweets. Looking into methods of cleaning and extracting useful information.
+-PROBLEMS-
+1.Will need a high performing entity detector. Example: "Plan B"
+2.Detecting categorical relationships. Example: Abortion IS Murder vs Abortion IS NOT murder.
+3.How would one deem the following as for or against? -
+It amazes me how a human #fetus is just a 'lump of cells' but on #Mars anything that's a cell is 'life'. #abortion #prolife
+4.Detecting sarcasm. Example: #Abortion is totally fine though, right?
+-SOLUTIONS-
+1.SpaCy
+2.Look into categorical parser
+3 & 4. Seem to be out of scope
+
+1/22/18
+-DOING-	
+Starting to plan and code cleaning methods.
+-PROBLEMS-
+1.Storing categorical relationships. Example: Abortion is a form of murder
+Solution:Parse tagged sentence and search for 'is/VBZ' and go until next 'NN' (or '/IN' and go to next 'NN')
+Tagging - Abortion/NNP is/VBZ a/DT form/NN of/IN murder/NN
+-Cleaning-
+1. Links
+2. Twitter handles - Remove all "@" until space
+3. "#" - hashtags - Preserve everything after '#' until a space
+4. Non-english
+5. Numbers
+6. Lock categorical relationships - ('abortion' NN | 'is' VB | 'a' DT | 'form' NN | 'of' IN | 'murder' NN)
+7. Stopwords 
+8. Lowercase
+9. Lock entities
+10. Punctuation - Preserve hyphens and do after entity detection
+11. Stem/Lem
+12. Seperate spaces - Preserve entities ('Pro choice' <=> 'prochoice')
+13. Frequency < Threshold
+-Resources-
+Online parser: http://nlp.stanford.edu:8080/parser/index.jsp
+POS tags: https://cs.nyu.edu/grishman/jet/guide/PennPOS.html
+
+1/23/18
+-DOING-
+Coding the cleaning methods. Thinking about building a linked list type data structure to store the tweet strings. The idea being that entities, categorical relationships, etc. can all be stored as one in the data structure. Each index in the data structure will stil be a string and will have to have the same methods that the python str data type has.
+SCRATCHED THE IDEA ABOVE AND WILL TRY WITHOUT ENTITY AND CATEGORY DETECTORS.
+-PROBLEMS-
+1.Determining best training and test set size
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3307431/pdf/1472-6947-12-8.pdf
+
+1/24/18
+-DOING-
+Add return of cutoff words to cutoff method. Thinking about not removing stop words (example: abortion is NOT a right). Can't remove not because it gives it it's negative connotation.
+
+1/25/18
+-TO DO-
+1. Determing best binary classifacation method for dataset
+2. Determine % to use for training, testing, and validation sets
+
+1/31/18
+-DOING-
+Just reached the 10,000 mark for ethics tweets. Going to call it good and start tackling the classification problem.
+
+-TO DO-
+1. Determine size for training, testing, and validation sets
+2. Play with binary classification methods
+
+2/4/18
+-DOING-
+Manually classifying data. SVM seems to have strong support for performance for text classification problems
+
+2/6/18
+-IDEA-
+Dashboard that has two features: 
+	1. Enter text(s) and have system report if it's pro, against, or just news for abortion
+	2. Analyze percentage breakdown of pro, against, news for US map.
+	 2.a. Can look at whole US, or zoom into states
+	 2.b. Can click an 'update' button that pulls recent tweets and adds them to data, updating precentage breakdowns
+
+2/13/18
+-DOING-
+Decided to focus more on breadth than depth. Meaning, building a system that is capable of handling multiple issues rather than just being super accurate at classifying abortion tweets. This will then be a two tiered classifcation system (or a 15 class classifcation problem? pro vs con vs news for each of the 5 issues). The first layer being classification of ethical issue (abortion vs gay marriage vs death penalty). The second layer being a classification of positive vs negative vs news.
+
+System flow:
+Input -> Clean -> Topic classifier -> For/against classifier -> Output generator -> Output
+
+-TO DO-
+Get data and label for:
+2. gay marriage
+3. gun rights
+4. death penalty
+5. black lives matter
+
+2/14/18
+-DOING-
+Gathering data for 4 ethical issues: abortion, gay marriage, gun rights, death penalty.
+Each will have their own feed on the interface with each tweet being highlighted based on it's classification (for, against, neutral).
+Going to train with 2,500 tweets split into training, testing, and validation.
+
+2/15/18
+-TO DO-
+1. Finish pulling and labeling tweets
+2. Analyze frequent words for each category (for, against, neutral) for each issue
+3. Attempt to reduce feature space by using a percentage of the most frequent words
+4. Build classifiers for each issue
+5. Set up simple twitter stream code
+https://www.dataquest.io/blog/streaming-data-python/
+
+2/20/18
+-DOING-
+Multinomial NaiveBayes Classifier built and it seems accurate for simple examples. May need to add some trivial cases to the training set manually.
+
+In abortion_data_clean.csv: 601 positive, 801 negative, 1777 neutral
+Going to go with 600 pos, 800 neg, 600 neutral
+
+Testing for NB: K-fold on abortion_data_clean.csv
+Testing for SVM and KN: Train on training_data.csv (600p, 800n, 600n)
+			Test on abortion_data_clean.csv (601p, 800n, 1777n)
+
+-TO DO-
+1. Test on large dataset
+2. Tune classifier and/or feature extraction: n-gram detection, etc.
+
+
+

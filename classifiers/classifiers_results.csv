@@ -1,0 +1,29 @@
+Classifier,Binary,N_gram,Accuracy
+Multinomial NB,y,none,69.15
+Multinomial NB,y,"1,2",70.16
+Multinomial NB,n,none,69.69
+Multinomial NB,n,"1,2",70.31
+Bernoulli NB,y,none,66.64
+Bernoulli NB,y,"1,2",57.36
+Bernoulli NB,n,none,57.36
+Bernoulli NB,n,"1,2",66.64
+SVM (rbf kernel),y,none,25.19
+SVM (rbf kernel),y,"1,2",25.19
+SVM (rbf kernel),n,none,25.19
+SVM (rbf kernel),n,"1,2",25.19
+SVM (linear kernel),y,none,83.62
+SVM (linear kernel),y,"1,2",86.6
+SVM (linear kernel),n,none,84.03
+SVM (linear kernel),n,"1,2",86.51
+Kneighbors (1),y,none,84.53
+Kneighbors (1),y,"1,2",95.25
+Kneighbors (1),n,none,83.71
+Kneighbors (1),n,"1,2",93.81
+Kneighbors (2),y,none,60.91
+Kneighbors (2),y,"1,2",65.22
+Kneighbors (2),n,none,60.22
+Kneighbors (2),n,"1,2",64.72
+Kneighbors (3),y,none,60.41
+Kneighbors (3),y,"1,2",64.78
+Kneighbors (3),n,none,60.09
+Kneighbors (3),n,"1,2",64.21
