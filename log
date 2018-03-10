@@ -137,5 +137,9 @@ Testing for SVM and KN: Train on training_data.csv (600p, 800n, 600n)
 1. Test on large dataset
 2. Tune classifier and/or feature extraction: n-gram detection, etc.
 
+3/9/18
+Classifier built and interface built on top of it that displays table from previous classfied tweets. Would like to turn this into a map with plots instead maybe.
+Example here: https://community.plot.ly/t/python-dash-examples-with-scattergeo/7018
+
 
 
