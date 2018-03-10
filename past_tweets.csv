@@ -1,43 +1,243 @@
-user,location,tweet_text,label
-test,cedar falls,I love abortion,for
-colemohler,Just blew in from Stupidtown,I wish I were a woman just so I could get an abortion,for
-marcosv13949594,Corpus Christi Tx,"@FoxNews @TomiLahren Tomi is a baby killer....pro choice, is pro abortion...",against
-P1,"Virgin Islands, U.S.",If I find out my girl pregnant and she won’t get an abortion I would just kill myself,for
-Angel_lips_666,philly,i’m so mad they took abortion off the list of topics for the senior research paper smh,neutral
-xXCYO1983Xx,,@Liz_Wheeler Who the F#@K celebrates abortion?!?!? You are sick for even tweeting that.,neutral
-MichaelObama20,,@VinceGottalotta We can talk about Planned Parenthood all we want when our tax dollars pay for that abortion factory,for
-ernest0livares,"Houston, TX","gotta write a paper on abortion, whom tryna help me. send links to good sources",neutral
-colemohler,Just blew in from Stupidtown,I wish I were a woman just so I could get an abortion,for
-marcosv13949594,Corpus Christi Tx,"@FoxNews @TomiLahren Tomi is a baby killer....pro choice, is pro abortion...",against
-P1,"Virgin Islands, U.S.",If I find out my girl pregnant and she won’t get an abortion I would just kill myself,for
-FitnessByBlue,"Kerry, Ireland",@bigcashmoney13 @Fatburger Sorry boo but as I empower women your suggestion fails like your moms abortion,for
-NFontone,"New York, USA",@cher This coming from a fucking jerk off who is for abortion. You asshole.🤮,neutral
-bmgarrett_m,,@idreamofsully @AFP I find it ironic that they ban abortion and then cut social programs to provide aid for children.,for
-cleotiger17,,@EdKrassen And they GOT AN ABORTION!!!!,neutral
-steve_seaton,,@HoarseWisperer It would be crickets. Evangelicals are closet hypocrite when it comes to abortion,against
-marynoise,,"@dalesview @SaysHummingbird Really, because at my local PP, I accessed healthcare, and never a abortion.",against
-Loudnsmom11,United States,@HoarseWisperer They'll just condemn the mistress... Trump will skate because you know he didn't actually have the abortion himself.,neutral
-amyserwinowski,,@Liberal_Buster @Leaerjet @SenFeinstein There is regulation of abortion. And the #2Amendment calls for regulation. #WellRegulated,against
-NFontone,"New York, USA",@cher This coming from a fucking jerk off who is for abortion. You asshole.🤮,neutral
-lNSIDl0US,,@SadboyRico You're a failed abortion whose birth certificate is an apology from the condom factory,neutral
-ernest0livares,"Houston, TX","gotta write a paper on abortion, whom tryna help me. send links to good sources",neutral
-colemohler,Just blew in from Stupidtown,I wish I were a woman just so I could get an abortion,for
-marcosv13949594,Corpus Christi Tx,"@FoxNews @TomiLahren Tomi is a baby killer....pro choice, is pro abortion...",against
-P1,"Virgin Islands, U.S.",If I find out my girl pregnant and she won’t get an abortion I would just kill myself,for
-Angel_lips_666,philly,i’m so mad they took abortion off the list of topics for the senior research paper smh,neutral
-xXCYO1983Xx,,@Liz_Wheeler Who the F#@K celebrates abortion?!?!? You are sick for even tweeting that.,neutral
-MichaelObama20,,@VinceGottalotta We can talk about Planned Parenthood all we want when our tax dollars pay for that abortion factory,for
-Charmie91752,Kansas City area,@paddy_omalley @Alyssa_Milano Wonder if Mother Teresa had an abortion before she joined the nunnery?,neutral
-kaitlynaxton,"Pittsburgh, PA",@karlHancock59 @LeighCardinal @AP Taxpayers don’t pay for abortions unless the abortion is medically necessary so...,for
-socalicc,Southern CA,@krassenstein And pay for her to have an abortion!,neutral
-Disciple4Lif,Kingdom of Heaven on Earth,"@KamalaHarris You mean you like to kill 3,000 babies a day by abortion. God hates you",against
-JustBUpFront,United States,@washingtonpost Why apologize? @VP is a twisted religious zealot with no sense of morals or humanity. He is an abortion!,against
-bffjillo,"Salt Lake City, UT",@VP I'm gonna get an abortion in your honor.,neutral
-marciadillon32,,@BeansTown106 Or ask mom why she didn’t choose abortion?,neutral
-DonnaDiva,"Phoenix, AZ","@1KrisO1 You have a strange idea of what ""winning"" is. 
+,user,location,tweet_text,label
+0,test,cedar falls,I love abortion,for
+1,colemohler,Just blew in from Stupidtown,I wish I were a woman just so I could get an abortion,for
+2,marcosv13949594,Corpus Christi Tx,"@FoxNews @TomiLahren Tomi is a baby killer....pro choice, is pro abortion...",against
+3,P1,"Virgin Islands, U.S.",If I find out my girl pregnant and she won’t get an abortion I would just kill myself,for
+4,Angel_lips_666,philly,i’m so mad they took abortion off the list of topics for the senior research paper smh,neutral
+5,xXCYO1983Xx,,@Liz_Wheeler Who the F#@K celebrates abortion?!?!? You are sick for even tweeting that.,neutral
+6,MichaelObama20,,@VinceGottalotta We can talk about Planned Parenthood all we want when our tax dollars pay for that abortion factory,for
+7,ernest0livares,"Houston, TX","gotta write a paper on abortion, whom tryna help me. send links to good sources",neutral
+11,FitnessByBlue,"Kerry, Ireland",@bigcashmoney13 @Fatburger Sorry boo but as I empower women your suggestion fails like your moms abortion,for
+12,NFontone,"New York, USA",@cher This coming from a fucking jerk off who is for abortion. You asshole.🤮,neutral
+13,bmgarrett_m,,@idreamofsully @AFP I find it ironic that they ban abortion and then cut social programs to provide aid for children.,for
+14,cleotiger17,,@EdKrassen And they GOT AN ABORTION!!!!,neutral
+15,steve_seaton,,@HoarseWisperer It would be crickets. Evangelicals are closet hypocrite when it comes to abortion,against
+16,marynoise,,"@dalesview @SaysHummingbird Really, because at my local PP, I accessed healthcare, and never a abortion.",against
+17,Loudnsmom11,United States,@HoarseWisperer They'll just condemn the mistress... Trump will skate because you know he didn't actually have the abortion himself.,neutral
+18,amyserwinowski,,@Liberal_Buster @Leaerjet @SenFeinstein There is regulation of abortion. And the #2Amendment calls for regulation. #WellRegulated,against
+20,lNSIDl0US,,@SadboyRico You're a failed abortion whose birth certificate is an apology from the condom factory,neutral
+28,Charmie91752,Kansas City area,@paddy_omalley @Alyssa_Milano Wonder if Mother Teresa had an abortion before she joined the nunnery?,neutral
+29,kaitlynaxton,"Pittsburgh, PA",@karlHancock59 @LeighCardinal @AP Taxpayers don’t pay for abortions unless the abortion is medically necessary so...,for
+30,socalicc,Southern CA,@krassenstein And pay for her to have an abortion!,neutral
+31,Disciple4Lif,Kingdom of Heaven on Earth,"@KamalaHarris You mean you like to kill 3,000 babies a day by abortion. God hates you",against
+32,JustBUpFront,United States,@washingtonpost Why apologize? @VP is a twisted religious zealot with no sense of morals or humanity. He is an abortion!,against
+33,bffjillo,"Salt Lake City, UT",@VP I'm gonna get an abortion in your honor.,neutral
+34,marciadillon32,,@BeansTown106 Or ask mom why she didn’t choose abortion?,neutral
+35,DonnaDiva,"Phoenix, AZ","@1KrisO1 You have a strange idea of what ""winning"" is. 
 
 Perhaps Putin will rig the abortion debate for you too.",against
-lack_of_energy,"Walnut Creek, CA","@howardfineman “Paternity information”. If Trump demanded or paid for an abortion for Stormy, is that a candidate for a mulligan?",neutral
-MattAndrewzs,,@alexander_sams 100% you don’t have a dad but if you did he would have wished your mom would have gotten an abortion,neutral
-xX1NORM1Xx,stoke-on-trent england,You can have an international men's day IF you stop telling women they can't have an abortion.,for
-MichaelObama20,,@BradleyPittma12 We can talk about that all we want when your tax dollars pay for that abortion factory,neutral
+36,lack_of_energy,"Walnut Creek, CA","@howardfineman “Paternity information”. If Trump demanded or paid for an abortion for Stormy, is that a candidate for a mulligan?",neutral
+37,MattAndrewzs,,@alexander_sams 100% you don’t have a dad but if you did he would have wished your mom would have gotten an abortion,neutral
+38,xX1NORM1Xx,stoke-on-trent england,You can have an international men's day IF you stop telling women they can't have an abortion.,for
+39,MichaelObama20,,@BradleyPittma12 We can talk about that all we want when your tax dollars pay for that abortion factory,neutral
+40,stealcurtain6,NH,@WalshFreedom If you're against abortion put your name on a list and adopt babies.,against
+41,johnshirley855,"Mobile, AL",@_smoon @DavidAFrench Every sexual act between liberals is a chance for an abortion.,against
+42,TweetHeckle,USA,"@DRiZZKiDmusic @lolokest @benlandis Did I say a gun was a meme? No, I posted a pro gun/anti abortion meme. Try to keep up, mate.",against
+43,LeviHoffman3,,@ereedtac Get out and vote NO!!!! #savethe8th abortion is genocide,against
+44,HanoyShan,"Arkham, MA",@HuffPostPol They'll excuse any of his sinful actions if there's a chance he'll ban abortion. They have no real moral standard.,against
+45,Picklesregan,the wasteland of leinster via Galway Offaly,In for more abortion propaganda surprise surprise #latelate,neutral
+46,Rewire_News,,@KTKeith True! But he is a doctor who provides abortion care.,neutral
+47,VuIture,"Dayton, OH",@ghostboysora the failed abortion pill,neutral
+48,2ndlast2rise,Canada,@ThatsMrNeil Helped her get an abortion?,for
+49,JAGAworldwide,"Seattle, WA.",@occultyouth worse than a dude lying about an abortion for clout? I hope ur joking,neutral
+50,meoumie,,@AC360 @andersoncooper What if it’s about an abortion he paid for? Ask her.,neutral
+51,ya_daddy,"Nawf Atlanta, GA","A female asked me to pay for her abortion so she could come to Atl... 
+
+We've never had sex",for
+52,Kat_Nhat,"Tennessee, USA",@Tactical_review She’s obviously never had an abortion . Women can’t impregnate each other #butch,for
+53,DlM16742799,,@eric_shinn @Saccone4PA18 Oh you mean some people disagree with abortion? Including a majority of women?,for
+54,Jesus1stUSA2nd,"California, USA","@sctbrdy @chefbob50 @chuckwoolery Yes, and the FETUS FEELS PAIN when it is ripped apart and murdered in abortion.",against
+55,beachmusicsprts,Connecticut,"@toddtalk Yeah, I had a laugh; coming from a guy who supports sanctuary New Haven! And hey abortion too! Call it as it is!
+#MalloyHypocrisy",neutral
+56,bjbarbeemomof7,,@IngrahamAngle They like to soften terms abortion=murdered babies,against
+57,LeviHoffman3,,@CorkRepeal8 @MarianMcCarthy Abortion is murder of the innocent unborn child you should all be ashamed of yourselves,against
+58,_hello_ocean_,Maritimes,"@TPM This isn't a blackmail payment, please investigate payment for abortion. Could this be why she's been sworn to silence??",against
+59,E_I_V_Lazar,,"@SamHydeShooter Also, I never said I was against banning porn and abortion. 
+But you don't need to believe in Utilitarianism to ban those.",for
+60,NancyRHM,NorCal,"@Jim13930 BTW, how are you going to feel about Trump when it's shown he paid for Stormy Daniels' abortion? He's such a good Christian man.",neutral
+61,beauviercoco,"Pasadena, CA",@EdanClay He also told Marla Maples his second wife to get an abortion...I'm sure it wasn't the first time.,neutral
+62,thestevenwoods,"San Diego, CA",@Flag_Warrior_1 @krassenstein Don’t like abortion JAMES?   Don’t get one,for
+63,SeanPHogan1,,@RianYoung_ @Pmjk1 Abortion is basic healthcare? Since when is killing the baby in the womb healthcare?,against
+64,azfornow,,@ShaunKing You could be Charlie Manson if you're anti Abortion,for
+65,Christi46119463,,@HuffPost Fake Christians.  Didn't he have the porn star get an abortion?,neutral
+66,swolliott,"California, USA",I am not pro #choice. I am pro #abortion.,for
+67,LeviHoffman3,,@RianYoung_ Yes?  Abortion will eradicate all children with down syndrome DISGUSTING MURDER FILTH! !!!!!!!!!!!!!!,against
+68,maryannekilgor,,@thehill How do they feel at the possibility an abortion?,neutral
+69,Woofaraw,BJ Novak's Ecstasy Factory,@PaulMetcalfe22 @IvyShoots Was this picture supposed to somehow negate the need for abortion care? Y'all need to work on your debate skills.,neutral
+70,branfan91,Ireland,@TJMcGibney @FintanCox lol shes made plenty of slanderous claims herself and spreads blatant lies re abortion. Right wing to the core. Bye,neutral
+71,LeviHoffman3,,@Chazeleeena @lisaxmorris Just one abortion is one too many murder is WRONG MURDSR,against
+72,txnkerbellex,derby&newcastle,if only america regulated gun violence as much as they regulate abortion.,against
+73,LeviHoffman3,,@Chazeleeena @lisaxmorris @katysxox will tell you why abortion is cold blooded murder,against
+74,Davisszef,"Wexford, Ireland",@ionainstitute No catholic with any type of conscience should vote for abortion.,against
+75,shmoe93,"Michigan, USA",@goldiefish726 @Williams19Tate @CNN You don't value human life if you stand for abortion. You only care about your 'wanted' children.,against
+76,LeviHoffman3,,@RianYoung_ Your only argument has been to laugh. You can't explain why abortion is not murder how pathetic jahahha,against
+77,SpinningDisc1,"Orlando, Florida, USA","@robenfarzad And the fact that since the 1970s, abortion has reduced their target market by 1/3 or more.",neutral
+78,jbschneider63,,@TheJuanWilliams NO real Christian supports abortion!  Nice try on the being a Christian try.🙄 #thefive,against
+79,Carmen453,,@NRAVikki KILL ABORTION. FOR EVER.,against
+80,Hardpointer,"Porto, Portugal","@Fragguh WW2 was born dead, a failed abortion thats why",against
+81,freakosuave813,,@shania_train Right? I call Ann Coulter a walking abortion and I get blocked.,for
+82,LisaWinslow,"Asheville, NC",@Lesadroi @Rewire_News Good thing there are no Children involved in #Abortion.,against
+83,HeadMistress843,"RALEIGH, NORTH CAROLINA (919)",Never took a Plan B pill or had an abortion,neutral
+84,jeffers30,"Cwmbach, Wales",@LeaveEUOfficial @Kimila111 The man with principles not the one who says one thing then collects his money from shares in abortion pills.,for
+85,RianYoung_,"Dublin, Ireland",@LeviHoffman3 Good. If my mam had’ve wanted an abortion she should have been allowed to have one. Who am I to tell my mother what to do?,for
+86,Mxg3nd3r0uTlAw,,@BNeville12 @gabebabe1965 @SarahKSilverman I had an abortion- I’ll dedicate it to you ;),neutral
+87,patanicsanic,"Maryland, USA",@maribellezza @Laura_Cobanius @JamesA46 How is abortion and contraception not a women's choice then?,for
+88,_hello_ocean_,Maritimes,@HoarseWisperer An abortion that he paid for!,neutral
+89,summer7570,,"@dailykos His traffickering underage models. His parties with Epstein, a pediphile. His rape at the party. Did anyone have an abortion!",neutral
+90,LeviHoffman3,,@RianYoung_ If your mom had had an abortion you wouldn't be here to make idiotic arguments think about that little boy,neutral
+91,NutherFineMess,North America - Above The Wall,Lawyer : Let's Pay the Porn Star to have an ABORTION . #RELIGEOUSRIGHT .,neutral
+92,ethscithre1,"New York, USA","@donato356 @ACLU Abortion terminates embryos/fetuses, not babies; science, much?",against
+93,raviahmad,"New York, USA",@marxfangirl1848 @Clozilla @kksteffany @DemSocialists @pghDSA this is the only internal rivalry allowed: abortion fundraising!,against
+94,anne_zolfaghari,United States,"@D9MichLevin Abortion ""bans"" don't ban abortion. They ban clean, safe, sterile abortions.",against
+95,ethscithre1,"New York, USA","@MichaelJTyree17 @ACLU Abortion doesn't 'kill human beings;' blastocysts/embryos/fetuses are nowhere NEAR being 'human.' Science, much?",against
+96,branfan91,Ireland,@TJMcGibney @FintanCox oh please shes online calling women murderers for having an abortion she is a disgrace,neutral
+97,20maddogg20,"Milwaukee, WI",@ASHXS314 You can’t have an abortion at 20 weeks in,neutral
+98,spravedlivist,"Украина, Киев",Mississippi legislature approves restrictive abortion bill,against
+99,RealJasonRyan,,It’s always people who should have been aborted that are against abortion,against
+100,FeelinLckyEarth,,@Alyssa_Milano Hooray for Mississippi. Stop Abortion!,against
+101,4drake4,,@rankinrooster @MJRush21 But abortion is ok.....,against
+102,quit_lies,USA,"@mike_Zollo 21 to smoke, drink, buy rifles. Florida &amp; 🇺🇸 should add to VOTE, ABORTION without a parent consent.",against
+103,CrispyBeaver,New York,"@PattyMurray You support abortion?
+Then you are a filthy, evil, baby-butchering piece of shit.
+FACT.
+Evil to your core.",against
+104,LeviHoffman3,,@RianYoung_ Thanks for agreeing abortion is murder,against
+105,RianYoung_,"Dublin, Ireland",@LeviHoffman3 What if my partner *chooses* not to get an abortion?,for
+106,Seli_Sanchez,,"@Lawrence Soo did he force her to have an abortion, or is there another spawn of his running around?",neutral
+107,corncob79,,"@RianYoung_ @RamRaid15 @Pmjk1 You clean toilets where now? 
+
+And you're right. Abortion is not healthcare.",against
+108,LeviHoffman3,,@RianYoung_ But if we have abortion legalised you won't have future children they'll be killed?,against
+109,BasedDisco,,@BravingRuin Wtf I love abortion now,for
+110,LeviHoffman3,,@RianYoung_ I feel sorry for your future children if you don't. Abortion is murder is fact.,against
+111,LeviHoffman3,,Abortion is murder and you know It @RianYoung_,against
+112,tzofia21,"Huntingdon, England",@obianuju Wow that is good news! Hopefully abortion and condoms will be stopped soon everywhere.,for
+113,Warrior101Abn,"Texas, USA",@jarodriguezvn God willing one of these days Abortion will abolished.,for
+114,annkwalter,"Akron, Ohio",@NARAL Abortion is not healthcare. Abortion is not routine medical care.,against
+115,saykojack,,@JuddLegum They sold their souls to the devil to allow a pussy grabber as president in exchange for an anti abortion judge,neutral
+116,SherylJohansen,,"@PattyMurray Planned Parenthood is the largest abortion provider in the U.S.  What ever happened to making ti safe, legal and rare?",for
+117,aripunzell,206//504,@WhoWasNea well if she got the abortion she wouldn't have to worry about it,neutral
+118,EgyptianNubian,✌Peace In The Middle East✌️,He didn’t want anyone to know I was pregnant let alone let anyone find out I got an abortion. I’m over the stress with him right about now.,neutral
+119,TheWrongFork,drunk in neiman marcus,@BuckyWTGoodHair And not just because I’d like you to put an abortion in me.,neutral
+120,BozoBrizo,,"@chuckwoolery So she has her rapists, her abortion, MS13 and illegal aliens. That’s quite a platform.",for
+121,brendawbrady,,"@OregonGovBrown 8107 deaths by abortion in 2017, in Oregon.    Still feeling proud, Governor?",neutral
+122,nichtlebendig,,Phantom of the Abortion Clinic,against
+123,ViceChaplain,,"@Bernie2016tv As an ignorant, knuckle-dragging man, I resent the implication that I couldn't support abortion.",neutral
+124,FiberBeing,Somewhere in the country,@robreiner Who paid for the abortion?,neutral
+125,JasonCaley,"Seattle, WA",You'd think more vegetarians would be anti-abortion.,neutral
+126,IndiaMaria2020,,"@parscale @realDonaldTrump Awesome.  Vote DEMOCRAT!!  Vote ABORTION, Vote OPEN BORDER, Vote MORE TAXES !!
+
+Hey, this is a Winner !",neutral
+127,NIGELTEAPOT,,"@lofty_murphy @whatsitalabut @Heidiboots God is the uncreated, uncontingent Prime Mover
+
+abortion is the worst sin
+
+sin is division from God",against
+128,shmoe93,"Michigan, USA",@goldiefish726 @Williams19Tate @CNN Simple question. Why is abortion a difficult decision to make?,for
+129,Irishede,ireland,'Abortion is the ultimate exploitation of women' Alice Paul #latelate,against
+130,Marebob,"Gardners, PA",@ItsMeCathi I know right? I heard about a possible abortion but then paternity wouldn't be an issue.,neutral
+131,NIGELTEAPOT,,"@lofty_murphy @Heidiboots @whatsitalabut life begins at conception.
+
+What you describe sounds like abortion, a favorite of your side",neutral
+132,soulkiss1001,United Greats,@BillyBaldwin i wonder how the late term abortion suppourter billy was able to type in russian characters,neutral
+133,VAGITATOR,Massachusetts,@AndrewRappaport @Woofaraw Turns out you won't accept anything but a historical law saying abortion was legal,neutral
+134,MeriamSusan,"Boise, ID",abortion lovers are always a sin,against
+135,nothoustontexas,"he/him, lactose intelligent",Just screamed at a bunch of abortion protesters!,neutral
+136,The_Borja_Pope,Mars,@Picklesregan What way are #latelate leaning? Pro Life or Pro Abortion?,neutral
+137,perryjdr1,,@SpinDr @RevFrBobHutchis Rev? How is anything more sinful than murdering babies (abortion). Just curious,for
+138,BoboSonata,Pacific Northwest,@_hello_ocean_ @TPM Who pays 130k for an abortion? I figure they're simmething in his prenup with Melania that makes this very inconvenient.,neutral
+139,Cozy2rRon,,@SenFeinstein Did you leave the hearing on mass abortion murders too?,neutral
+140,GioraSaid,Rust Vest,@thebaldtruth @politicalelle Or go to Israel and get an abortion subsidized by the American taxpayer. Lmao,neutral
+141,arlette_50,"California, USA",@HuffPost Maybe if Stormy was asked by you know who to get an abortion? Would that do it?,neutral
+142,RoseWoo59248280,,@chuckwoolery Guess that would make sense to her because she is pro abortion.,neutral
+143,oesmom1,florida,@VP @SenSherrodBrown No problem with porn star and trump? Maybe there’s an abortion involved? Don’t know yet.,against
+144,MaghnusMo,,@thelatelateshow Ryan time to challange the lazy/absurd link with abortion and the magdelane laundries.Abortion ends a life. #loveboth,against
+145,mgilbertson1946,"Batavia, IL","@tedlieu Ok,  I’ll ask it..was an abortion involved?",neutral
+146,thekerrycowboy,,@latelate Tubs PRO abortion lady pardon the pun but you have her a lot of head there boyo,neutral
+147,DumbleDarkVader,,@DonaldsNeckVag @DonaldJTrumpJr Stormy either had an abortion or Trump did something insanely nasty. Otherwise no need for all this cover up,neutral
+148,sassyvonnie,,@RealJamesWoods International woman's day are they against abortion. You said that women are life givers just wondering where you stand,against
+149,POM19830311,,@HanrahanAndy @jshocds @john_mcguirk How does abortion balance up that injustice? Whose body will be disposed of? What's the difference?,neutral
+150,caridiva,Los Angeles,"@NicolleDWallace If she gets paid $130,000 to shut up about an abortion, I'd say yes.",neutral
+151,HouseBitchTim,"Lafayette, Ca",@thehill As @realDonaldTrump offered an abortion for @StormyDaniels  ...  go figure.,neutral
+152,shmoe93,"Michigan, USA",@goldiefish726 @Williams19Tate @CNN Why is abortion always a difficult decision to make? It's a baby or its not.,against
+153,mattcorvin1,"Saugerties, NY",@LilaGraceRose Abortion tools don't kill fetuses; people kill fetuses.  See how it works?,against
+219,Your_highniss,,I’m pregnant.... let me have an abortion real quick.,against
+220,lindsaydesautel,,@notcarlzbad @heybrutherr This girl I know had a baby bc she couldn’t afford an abortion. Umm pretty sure babies are WAYY more expensive,neutral
+221,DaleRutz,San Francisco Bay Area,@WalshFreedom How about paying for the abortion??  the other men didn't do that!,for
+222,shanabana620,,I’m not giving no bitch abortion money . Fohb,against
+223,Rapture571,,"@ABC You’re talking about abortion for convenience as a good thing. The elective killing of human beings.
+
+Go away.",for
+224,nmbartfield00,,Wow. These I-75 billboards have taught me a lot about both abortion and adult stores,for
+225,RyanTheCox,"DFW Texas, USA",@sdurbin23 Four out of five abortion doctors would agree.,against
+226,Patrici83877162,"Earth, USA",@rodjori @stealthygeek A the child because the mother is in an abortion clinic therefore aborting the child she's carrying anyhow.,against
+227,SeanPHogan1,,"@TomFurbo There isn't 1 argument, 1 fact, 1 scientific law that supports abortion. None. So they rely on slogans and lies.",neutral
+228,ExothermicMaxi1,,"The greatest contradiction of the ""abortion rights"" argument is that the person with the most to lose has the least say in the matter.",against
+229,RedTory2016,Wales,@MarkSpurs I first found him abusing women that admitted to having an abortion. He doesn’t accept that women have rights to their own bodies,neutral
+230,excitable_mike,CNY,@AP But 14yo girls don’t need their parent’s consent for a sex change or abortion....,for
+231,LawlessRoisin,Ireland,@TomFurbo It also legally paved the way in Canada for abortion up to birth.,neutral
+232,andretolstoi,,@jmibullfrog Because you say you agree with me on abortion.,against
+233,Karmasaurus,Ct,@ItsMeCathi Most probable an abortion,neutral
+234,MaberryKara,"Maine, USA",@TomiLahren Probably why the conservatives are obsessed with abortion. Same reason why,neutral
+235,gazeofhorus,,@BravingRuin So this non-sequitur means you're in favor of abortion? Got it.,neutral
+236,realworldrj,Nearby,@dailykos Tax cuts didn’t work. Anti-gay stuff won’t work so soon it’ll be some noise about partial birth abortion.,neutral
+237,meoumie,,"@MeetThePress @RuthMarcus But what if he is trying to silence her because of an abortion? That would be a bombshell, don’t you think?",neutral
+238,TaylorKsCalves,,I’d like to see Trump supporters try to defend the possibility that he made Stormy Daniels have an abortion! #MAGA,neutral
+239,Britt_Nicole125,"Fort Dodge, IA",Hey boys you can’t get pregnant and you will never have to push a kid out so stop acting like you get to have a say on abortion laws,neutral
+240,ShippityTavi,Duwamish,@PattyMurray Nobody is guaranteed a right to a taxpayer funded abortion. Pay for it yourself.,against
+241,Orla_Cordial,Dublin,"@Dermopj No I do not, I'd rather go into college and get a free condom, I want abortion in case I deem it necessary",for
+242,sarahsrsly,614,"*passes Abortion Is Forever sign*
+“good!! I don’t want that little fuckin demon coming back.”",against
+243,PanOfSeamen,"Washington, USA",@chazzz54 Abortion law should be next on the chopping block. Allowing murder is archaic.,against
+244,katemeehan_1317,Ireland,"For example ""why are we always on about rape"", ""here's this feminist one again"" , ""..pushing abortion propaganda"" etc, etc",neutral
+245,music_bloggers,Bangkok and Manchester,@Shareblue @MrMurder37 And when it comes out that Trump paid for an abortion his head will actually implode.,neutral
+246,MadonnasTea,Confessions on a Dance Floor,@wetminaj_ @chartdata @Eminem @edsheeran Nokia's abortion is rooting,against
+247,alexlaughs,"Brooklyn, NY",“Happy international women’s day here’s an Instagram post with me and all the women in my family I still don’t believe in abortion tho”,against
+248,LeviHoffman3,,@Carole_Whelan But if she had had an abortion you wouldn't have been born??????,neutral
+249,Gottlinaxo,"New York, USA",BITCHES Get 🤰🏾Pregnant Have An Abortion &amp; Get Pregnant Again by the same nigga &amp; Have The Baby Like Damn What The OTHER 👶🏽BABY Do.? 🙄😔😒😌😩😭,neutral
+250,beccaheckyea,,competitive abortion fundraising,against
+251,DrRasta12,,@Shareblue Did she have an abortion?  That would shut him up.,neutral
+252,LeviHoffman3,,@aholeinthewind @oneilllo Disgusting. Abortion is murder,against
+253,NIGELTEAPOT,,@lofty_murphy @whatsitalabut your quote actually says that the punishment for abortion is immediate execution of the perpetrator,against
+254,FrankieBoyleBot,,Making abortion illegal is a bit like Joey from Friends releasing a death metal album with Anthony Joshua,against
+255,exitseraphim,"London, England",@woolfpupy I know it's not really much better but otoh abortion is legal here for now.,for
+320,Rollo_Tomasi_14,,@tms2007 @stevecstny @rossa19 @mmanthey1007 @AP So then you agree you shouldn't be allowed to have an abortion till your 21,neutral
+321,c_cummings2,"Fargo, ND",UPDATE: now talking about planned parenthood and abortion...,neutral
+322,DanielpMac90,"Houston, TX",@jeffsoble @NBCNews Confused I see. You know abortion and all that stuff that liberals love. Don’t throw stones in a glass house,against
+323,_misobot,,stealing? she's been home so sick of an abortion is how,against
+324,dalannak_,texas ,@ASHXS314 the abortion.... the process...,against
+325,JustlOVEKATE,,When Manny was gone have the abortion and Craig broke down cause he felt like he was losing a family😭,neutral
+326,TimToopeck,not a sh*thole,"@PattyMurray #DefundPP 
+It's not YOUR money @PattyMurray it's OURS! Abortion is NOT women's health. It's murder!",against
+327,Tbh4ever_,"Atlanta, GA",Wow you guys really believe in abortion ☹️,neutral
+328,djwendella,Jupiter,@momlew7 @PCF879095 @VP Don't like abortion? Then don't have one. So simple.,for
+329,AltmanErin,"Florida, USA","@SykesCharlie @crampell I anticipate teen pregnancy, abortion, and sexually transmitted infections will also make a comeback.",neutral
+330,POM19830311,,"@EmmaMurphy12150 Oh, how did it end up with abortion?",against
+331,mirahwood,the wastelands,@AhmedinhoJr Oh but you're not anti BDS or praising a certain anti abortion Catholic so it can't be your tweets,neutral
+332,tms2007,"Georgia, USA",@Rollo_Tomasi_14 @mmanthey1007 @stevecstny @AP Have you have an abortion?,neutral
+333,MaryPharaoh,,Three big abortion providers have received $1.5 billion in taxpayer funding over a 3 yr span. Why must we fund killing babies?,against
+334,FelixWrightwind,,Misogynists complaining about abortion will be *cough* crazy so I feverishly lick heroin addicts from small-town Ohio.,for
+335,oktalr,"Florida, USA","Shout out to my dad for not using a condom / shout out to my mom for skipping the abortion, your girl will be enormous",for
+336,NeilWMcCabe,Redacted,@mirriam71 Nothing cheers me up more than @BuzzFeed reporters fretting about abortion. It is like a sacrament for them.,for
+337,CapitalGrbk,,"@darthcancerous @NBCNews If a state passed a law restricting 18-20 year olds’ access to abortion, what would you say then?",against
+338,davbod,Washington,@PattyMurray Abortion is murder.,against
+339,DoinJewishTrix,Some Where around Syria,@brainoutREAD @aaronjcarpenter @shut1ggyup @JackPosobiec Abortion is murder though,against
+340,action_swanson,pitt,the best way to stop abortion is to give guns to fetuses,for
+341,Helen121,Oxford,@JuddLegum I'm curious to know if the Evangelicals will support Trump if it comes out he paid for Stormy to have an abortion.,neutral
+342,oohky_,"St. Louis, MO",They got a billboard that say “ Everyone that is for abortion “ 🙁,against
+343,Mdday13,,@321Amanda75 @FightingMad1 I’m guessing it’s abortion. 🤷‍♂️,neutral
+344,carterdee_,"Houston, TX",@chourtney_lovee Get the abortion with that tax money,neutral
+345,mmanthey1007,"Arizona, USA","@Rollo_Tomasi_14 @stevecstny @AP Why restrict the voting? It’s a constitutional right, yes? Not sure abortion is.",for
+346,SmolestDerg,"Minnesota, USA",@KazuTheSrgl What about getting pregnant and needing an abortion because pregnancy with wildly mess up your health?,neutral
+347,etm1911,,"@AIIAmericanGirI @LifeNewsHQ You love your abortion provider more than your butchered baby?
+What will the Lord Jesus say about that?",neutral
+348,la_vanemartin,,"@carllentzNY sin is sin, no matter who commit it, ABORTION
+IS A SIN! you can't be warm on it",against
+349,n0bodysbaby,MA ,Ya sure i’ll babysit ur kids while u go get an abortion😩 i’ll make ur babydaddy breakfast and suck his dick before he goes to work too,neutral
+350,Plantflowes,,@trytostopJane @Franklin_Graham Not the first abortion Trump has paid for,neutral
+351,dbwood1960,,@FrankLuntz Because the same 81 percent are over 21. what percent think late term abortion is okay?,against
+352,susstgr,,@angelor2000 @sithpizzaorder What's your stance on abortion angelor?,neutral
+353,Flying59Vette,,"@JaxLeSigh @NARAL Again, nothing about abortion. The ""right"" is made up, and may be overturned.",neutral
+354,RachelHeldEvens,,"@altskimm @theskimm @CecileRichards Umm, you told me 3% of what they do is abortion and then post this saying it's a lie?",neutral
+355,preciousaambhi,,@NathanHRubin @JonJonBriones @GOP When Trump legalize abortion.,neutral
+356,snark_princess,"ÜT: 40.684462,-80.106439",I work at an abortion clinic. A mentally unstable person is threatening abortion providers. I’m going to work tomorrow anyway.,neutral
