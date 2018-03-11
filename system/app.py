@@ -25,7 +25,8 @@ app.css.append_css({
 
 app.layout = html.Div([
 	html.Div([
-		html.P('Twitter Classifier. Author: Taylor Olson', style={'margin-bottom': '5%'}),
+		html.P('SVM Abortion Tweet Classifier'),
+		html.P('Author: Taylor Olson', style={'margin-bottom': '5%'}),
 		], id='header'),
 	html.Div([
 		dcc.Input(id='tweet_amount', type='number', value='50'),
@@ -40,7 +41,7 @@ app.layout = html.Div([
 			style={'margin-bottom': '5%'}
 		),
 		html.Div(['Load tweets and after they will be shown here...'], id="twitter_feed"),
-	])
+	], id="content")
 	], id="main-content")
 
 def generate_table(df, max_rows):
@@ -49,7 +50,7 @@ def generate_table(df, max_rows):
 	df_neutral = df[(df['label'] == 'neutral')]
 	return html.Table(
 		# Header
-		[html.Tr([html.Th(col) for col in ['user', 'tweet_text']])] +
+		[html.Tr([html.Th(col) for col in ['User', 'Tweet']])] +
 
 		# Body
 		[html.Tr([
@@ -79,7 +80,7 @@ def generate_map(df):
 			mode= 'markers',
 			hoverinfo = 'text',
 			marker = dict(
-				size = 8,
+				size = 5,
 				opacity = 0.8,
 				symbol = 'circle',
 				color = 'rgb(0, 128, 0)'
@@ -95,7 +96,7 @@ def generate_map(df):
 			mode= 'markers',
 			hoverinfo = 'text',
 			marker = dict(
-				size = 8,
+				size = 5,
 				opacity = 0.8,
 				symbol = 'circle',
 				color = 'rgb(255, 0, 0)'
@@ -111,7 +112,7 @@ def generate_map(df):
 			mode= 'markers',
 			hoverinfo = 'text',
 			marker = dict(
-				size = 8,
+				size = 5,
 				opacity = 0.8,
 				symbol = 'circle',
 				color = 'rgb(128, 128, 128)'
@@ -128,7 +129,7 @@ def generate_map(df):
 			subunitcolor = "rgb(77, 77, 77)",
 			countrycolor = "rgb(77, 77, 77)",
 			countrywidth = 0.5,
-			subunitwidth = 0.5
+			subunitwidth = 0.5,
 		),
 	)
 	fig = dict(data=data, layout=layout)
