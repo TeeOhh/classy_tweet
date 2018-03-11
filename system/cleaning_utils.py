@@ -5,6 +5,16 @@ from nltk.corpus import stopwords
 import gensim
 from gensim import corpora, models, similarities
 import pandas as pd
+from geopy.geocoders import Nominatim
+
+def geo_location(location):
+    ##Takes in a location and attempts to geocode as lat, long, coordinates
+    geolocator = Nominatim()
+    try:
+        location = geolocator.geocode(location)
+        return [location.latitude, location.longitude]
+    except:
+        return ''
 
 def clean_single_tweet(tweet):
 	tweet = remove_handles(tweet)
@@ -18,7 +28,6 @@ def clean_single_tweet(tweet):
 	tweet = tweet.replace("abortion", "")
 	tweet = remove_double_space(tweet)
 	return tweet
-
 
 def remove_handles(tweet):
     ##Function takes in a string (a tweet) and returns the string without twitter handles

@@ -53,11 +53,19 @@ def load_tweets():
 			##JSON Object: https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/intro-to-tweet-json
 			user = tweet.user.screen_name
 			location = tweet.user.location
+			geo_location = utils.geo_location(location)
+			if geo_location != '':
+				latitude = geo_location[0]
+				longitude = geo_location[1]
+			else:
+				latitude = 0
+				longitude = 0
 			tweet_text = tweet.text
 			tweet_class = classifier.predict([utils.clean_single_tweet(tweet_text)])[0]
-			columns = ['user', 'location','tweet_text', 'label']
+			columns = ['user', 'location', 'lat', 'long', 'tweet_text', 'label']
 			df = pd.DataFrame([{'user' : user, 'location' : location,
-				'tweet_text' : tweet_text, 'label': tweet_class}])
+				'lat': latitude, 'long' : longitude, 'tweet_text' : tweet_text, 
+				'label': tweet_class}])
 			df = df[columns]
 			
 			with open('past_tweets.csv', 'a+') as f:
