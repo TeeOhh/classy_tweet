@@ -23,13 +23,16 @@ app.css.append_css({
 	"external_url": my_css_url
 })
 
+length_df = len(pd.read_csv('past_tweets.csv', usecols = ['user', 
+		'location', 'lat', 'long', 'tweet_text', 'label']))
+
 app.layout = html.Div([
 	html.Div([
 		html.P('SVM Abortion Tweet Classifier'),
 		html.P('Author: Taylor Olson', style={'margin-bottom': '5%'}),
 		], id='header'),
 	html.Div([
-		dcc.Input(id='tweet_amount', type='number', value='50'),
+		dcc.Input(id='tweet_amount', type='number', value=length_df),
 		html.Button('Load Tweets', id='load-btn', style={'margin-bottom': '3%'}),
 		dcc.RadioItems(
 			options=[
@@ -40,7 +43,7 @@ app.layout = html.Div([
 			id='table_or_map',
 			style={'margin-bottom': '5%'}
 		),
-		html.Div(['Load tweets and after they will be shown here...'], id="twitter_feed"),
+		html.Div([], id="graphs")
 	], id="content")
 	], id="main-content")
 
@@ -48,23 +51,20 @@ def generate_table(df, max_rows):
 	df_for = df[(df['label'] == 'for')]
 	df_against = df[(df['label'] == 'against')]
 	df_neutral = df[(df['label'] == 'neutral')]
-	return html.Table(
-		# Header
-		[html.Tr([html.Th(col) for col in ['User', 'Tweet']])] +
-
+	return html.Div([html.Table(
 		# Body
 		[html.Tr([
-			html.Td(df_for.iloc[i][col]) for col in ['user', 'tweet_text']
+			html.Td(df_for.iloc[i][col]) for col in ['tweet_text']
 		], style={'border' : '3px solid #00b300'}) for i in range(min(len(df_for), max_rows))] +
 
 		[html.Tr([
-			html.Td(df_against.iloc[i][col]) for col in ['user', 'tweet_text']
+			html.Td(df_against.iloc[i][col]) for col in ['tweet_text']
 		], style={'border' : '3px solid #ff4d4d'}) for i in range(min(len(df_against), max_rows))] +
 
 		[html.Tr([
-			html.Td(df_neutral.iloc[i][col]) for col in ['user', 'tweet_text']
+			html.Td(df_neutral.iloc[i][col]) for col in ['tweet_text']
 		], style={'border' : '3px solid #595959'}) for i in range(min(len(df_neutral), max_rows))]
-	)
+	)], id="twitter_feed")
 
 def generate_map(df):
 	df_for = df[(df['label'] == 'for')]
@@ -119,7 +119,6 @@ def generate_map(df):
 				)
 		)]
 	layout = dict(
-		title = 'U.S. Tweets on Abortion',
 		colorbar = True,
 		geo = dict(
 			scope='usa',
@@ -133,10 +132,31 @@ def generate_map(df):
 		),
 	)
 	fig = dict(data=data, layout=layout)
-	return dcc.Graph(id='graph', figure=fig)  
+	return html.Div([dcc.Graph(id='graph', figure=fig)], id="map_container")
+
+
+def load_pie(df, amount):
+	fore = len(df[(df['label'] == 'for')])
+	against = len(df[(df['label'] == 'against')])
+	neutral = len(df[(df['label'] == 'neutral')])
+	labels = ["For", "Against", "Neutral"]
+	values = [fore, against, neutral]
+	colors = ['rgb(0, 128, 0)', 'rgb(255, 0, 0)', 'rgb(128, 128, 128)']
+	data = [ dict(
+			type = 'pie',
+			labels = labels,
+			values = values,
+			hoverinfo = 'label+value+percent',
+			marker = dict(colors=colors)
+			)]
+	layout = dict(
+		title = 'Percentage Breakdown'
+		)
+	fig = dict(data=data, layout=layout)
+	return html.Div([dcc.Graph(id="pie-chart", figure=fig)], id="pie_container")
 
 @app.callback(
-	Output('twitter_feed', 'children'),
+	Output('graphs', 'children'),
 	events = [Event('load-btn', 'click')],
 	state = [State('tweet_amount', 'value'), State('table_or_map', 'value')])
 
@@ -144,14 +164,19 @@ def load_content(amount, table_map):
 	past_tweets_df = pd.read_csv('past_tweets.csv', usecols = ['user', 
 		'location', 'lat', 'long', 'tweet_text', 'label'])
 
+	if int(amount) == 0:
+		amount = len(past_tweets_df)
+
 	if table_map == 'table':
 		past_tweets_df = past_tweets_df.tail(int(amount)).iloc[::-1]
-		return generate_table(past_tweets_df, int(amount))
+		return html.Div([load_pie(past_tweets_df, int(amount)), generate_table(past_tweets_df, int(amount))])
 
 	elif table_map == 'map':
 		past_tweets_df = past_tweets_df[(past_tweets_df['lat'] != 0) & (past_tweets_df['long'] != 0)]
 		past_tweets_df = past_tweets_df.tail(int(amount)).iloc[::-1]
-		return generate_map(past_tweets_df)
+		return html.Div([load_pie(past_tweets_df, int(amount)), generate_map(past_tweets_df)])
+
+
 
 if __name__ == '__main__':
 	app.run_server(debug=True)
